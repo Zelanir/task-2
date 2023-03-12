@@ -1,16 +1,14 @@
 .colors{
-  height: 610px;
-  width: 281.26px;
+  display: inline-block;
+  width: 282px;
   left: 1450px;
   top: 145px;
-  border-radius: 6px;
   display: flex;
   flex-direction: column;
 }
 .colors-item{
   display: flex;
   flex-wrap: nowrap;
-  margin: 10px 0px;
 }
 .colors-item__square{
   width: 70px;
@@ -32,8 +30,11 @@
 .colors-item__square_dark-5{
   background-color: #1F20410D;
 }
-.colors__text{
-  margin: 0px 0px 0px 5px;
+.colors-item__square_purple{
+  background-color: #BC9CFF;
+}
+.colors-item__square_green{
+  background-color: #6FCF97;
 }
 .colors__subtitle{
   font-weight: 400;
